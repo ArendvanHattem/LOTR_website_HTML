@@ -1,0 +1,108 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html {
+    background-color: rgb(200, 0, 0);
+   }
+
+   #divmainmenu {
+    display:inline;
+}
+#ulmainmenu li{
+    display: inline;
+    margin-right: 75px;  
+    font-size: 20px; 
+}
+
+#ulmainmenu li a{
+  display:inline-block;
+  text-decoration: none;
+  padding: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: black;
+  text-align: center;
+  box-shadow: 0px 0px 20px 11px rgb(0, 0, 0);
+  color: darkblue;
+  font: inherit;
+}
+
+#dropdown{
+  font-size: 20px;
+}
+
+ #ulmainmenu li a:hover {
+    color: cyan;
+   }
+
+   .dropbtn {
+    background-color: black;
+    padding: 15px;
+    font-size: 18px;
+    font: inherit;
+    border: none;
+    box-shadow: 0px 0px 20px 11px rgb(0, 0, 0);
+    color: darkblue;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    margin-top: 12px;
+    margin-bottom: 11px;
+    margin-right: 0px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 258px;
+    box-shadow: 0px 0px 20px 11px rgb(0, 0, 0);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: darkblue;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {color: cyan;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {color: cyan;}
+
+  #divsidemenu{
+    color: darkblue;
+  }
+
+#divsidemenu a{
+  margin-left: 15px;
+  margin-right: 39px;
+  background-color: black;
+  color: rgb(210, 140, 0);
+  padding: 5px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 25px;
+  text-decoration: none;
+}
+
+  #divsidemenu :hover{
+    color: yellow;
+  }
+
+  .header {
+    background-color: black;
+    width: 1222px;
+    text-align: center;
+    left: 0%;
+    position: absolute;
+    padding: 25px;
+    color: rgb(210, 140, 0);
+    font-size: x-large;
+    font-weight: bold;
+  }
